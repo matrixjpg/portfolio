@@ -1,0 +1,38 @@
+body {
+    overflow-x: hidden;
+}
+.main {
+    margin-top:16%;
+    margin-left:4.3%;
+    width:60%;
+}
+.container img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    transition: transform .2s;
+}
+.container img:hover {
+    transform: scale(1.5);
+}
+.row {
+    display: flex;
+    margin-bottom: 10%;
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    flex: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row .column img {
+    transition: transform .3s;
+}
+.row .column img:hover {
+    transform: scale(1.4);
+}
