@@ -12,6 +12,9 @@ li {
     list-style-type: none;
     display: inline;
 }
+header ul {
+    display: inline-block;
+}
 header a:not(:last-child) { 
     margin-right: 30px;  
 }
