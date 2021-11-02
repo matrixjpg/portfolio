@@ -7,6 +7,9 @@
     bottom: 50%;
     left:40%;
 }*/
+.bx.bx-menu {
+    display: none;
+}
 .about-me > img {
     background: transparent;
     height: 450px;
