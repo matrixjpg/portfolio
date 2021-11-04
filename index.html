@@ -14,26 +14,54 @@
     <body>
     <style>
     @media screen and (max-width: 1000px) {
+        header h3 {
+            font-size: 3rem;
+        }
         header ul {
             display: none;
         }
-        .bx.bx-menu {
+        .container {
             display: block;
-            float:right;
+        }
+        svg {
+            height: 150px;
         }
         header li {
             display: block;
             margin-left:4.3%;
         }
+        h2 {
+            font-size: 4rem;
+        }
         .second-section h3 {
             width: 55%;
             bottom: -32px;
+        }
+        .third-section h3 {
+            font-size: 2rem;
+        }
+        .about-me .inside {
+            width: 100%;
+            font-size: 2.5rem;
+            margin-top: 0%;
         }
 }
     </style>
         <header>
             <h3>Omar</h3>
-            <i class='bx bx-menu'></i>
+            <!-- <i class='bx bx-menu'></i> -->
+            <div class="container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                      <g stroke-width="6.5" stroke-linecap="round">
+                        <path d="M72 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff"/>
+                        <path d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554" fill="none" stroke="#fff"/>
+                        <path d="M72 125.143h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff"/>
+                        <path d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554" fill="none" stroke="#fff"/>
+                        <path d="M100.75 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff"/>
+                        <path d="M100.75 125.143h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff"/>
+                      </g>
+                    </svg>
+              </div>
             <ul>
                 <a href="#about-me"><li class="active">Home</li></a>
                 <a href="#third-section"><li>Who Am I</li></a>
@@ -49,9 +77,9 @@
                 </video>
             </div> -->
             <!-- <img src="assets/img/coding.svg" alt="Coding"> -->
-            <div style="margin-top:16%;margin-left:4.3%;width:60%;">
+            <div class="inside">
                 <h1 data-aos="zoom-out-down" data-aos-duration="2100">Hello Friend 👋.</h1>
-                <h3 data-aos="zoom-out-down" data-aos-duration="2200">I'm <span style="color:#AA2355;">Omar El Sayed.</span><br>I'm <span id="text"></span><br>Life Long Learner.</h3>
+                <h3 style="width:100%;" data-aos="zoom-out-down" data-aos-duration="2200">I'm <span style="color:#AA2355;">Omar El Sayed.</span><br>I'm <span id="text"></span><br>Life Long Learner.</h3>
                 <div class="social">
                     <!-- <a href="https://www.facebook.com/matrixx.0"><i class='bx bxl-facebook-circle'></i></a>
                     <a href="https://wa.me/201124327902"><i class='bx bxl-whatsapp'></i></a>
@@ -69,11 +97,10 @@
             <img data-aos="fade-up-left" data-aos-duration="2600" src="assets/img/coding.png" alt="Coding">
             <!-- <span class="img"></span> -->
         </div>
-        <a href="#second-section"><div class="scroll-down">
+        <!-- <a href="#second-section"><div class="scroll-down">
             <!-- <h2>Scroll Down</h2> -->
             <img src="assets/img/downarrow.png" alt="Down Arrow" height="100">
-        </div></a>
-        <br><br><br><br><br><br><br>
+        </div></a> -->
         <div data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine" id="second-section" class="second-section">
             <h2>Here's What I Have Done</h2>
             <img src="assets/img/Developer.svg" alt="Developer">
