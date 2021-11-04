@@ -56,11 +56,13 @@ function Delete() {
 // Start the typing effect on load
 _INTERVAL_VAL = setInterval(Type, 100);
 
-var menu_icon = document.querySelector(".bx");
+var menu_icon = document.querySelector(".container");
 var menu = document.querySelector("header ul");
 is_clicked = 0;
+
 menu_icon.onclick = function () {
 	//console.log("Ouch!");
+	menu_icon.classList.toggle('active');
 	if (is_clicked == 0) {
 		is_clicked = 1;
 		menu.style.display = "block";
