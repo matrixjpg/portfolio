@@ -14,8 +14,6 @@ li {
 }
 header ul {
     display: inline-block;
-    margin-left: 0.5%;
-    font-size: 2.5rem;
 }
 header a:not(:last-child) { 
     margin-right: 30px;  
