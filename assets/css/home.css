@@ -60,6 +60,9 @@ svg {
     transform: translateX(9px) translateY(1px) rotate(45deg);
   }
 /* End Of Menu */
+.mobile-tip {
+    display: none;
+}
 .container {
     display: none;
     width: 60px;
@@ -190,6 +193,9 @@ h2 {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 @media screen and (max-width: 1000px) {
+  .mobile-tip {
+      display: block;
+  }
   body {
       margin-left:4%;
   }
@@ -217,6 +223,9 @@ h2 {
   @media (orientation: landscape) {
   .second-section {
       margin-top: 40%;
+  }
+  .mobile-tip {
+      display: none;
   }
  }
   .second-section h3 {
