@@ -214,12 +214,12 @@ h2 {
   h2 {
       font-size: 4rem;
   }
+  .second-section {
+      margin-top: 40%;
+  }
   .second-section h3 {
       width: 55%;
       bottom: -32px;
-  }
-  .third-section h3 {
-      font-size: 2rem;
   }
   .about-me .inside {
       width: 100%;
