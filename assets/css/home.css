@@ -60,7 +60,7 @@ svg {
     transform: translateX(9px) translateY(1px) rotate(45deg);
   }
 /* End Of Menu */
-.mobile-tip {
+header .mobile-tip {
     display: none;
 }
 .container {
