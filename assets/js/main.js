@@ -1,4 +1,7 @@
 AOS.init();
+jQuery(document).ready(function() {
+    jQuery('#loading').fadeOut(2000);
+});
 // List of sentences
 var _CONTENT = ["Front-End Developer", "Node JS Developer", "PHP Developer"];
 
