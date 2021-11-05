@@ -214,9 +214,11 @@ h2 {
   h2 {
       font-size: 4rem;
   }
+  @media (orientation: landscape) {
   .second-section {
       margin-top: 40%;
   }
+ }
   .second-section h3 {
       width: 55%;
       bottom: -32px;
