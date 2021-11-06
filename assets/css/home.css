@@ -157,8 +157,7 @@ h2 {
 }
 .second-section h3 {
     display: inline-block;
-    /*font-size: 1.2rem;*/
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     /* margin-bottom: 5%; */
     position: relative;
     bottom: 55px;
@@ -176,8 +175,7 @@ h2 {
     margin-bottom: 25%;
 }
 .third-section h3 {
-    /*font-size: 1.2rem;*/
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     position: relative;
     left:4%;
 }
@@ -231,9 +229,13 @@ h2 {
   }
  }
   .second-section h3 {
+      font-size: 1.8rem;
       width: 55%;
       bottom: -32px;
   }
+  .third-section h3 {
+      font-size: 1.8rem;
+   }
   .about-me .inside {
       width: 100%;
       font-size: 2.5rem;
@@ -241,6 +243,9 @@ h2 {
   }
   footer {
       margin-left: 10%;
+  }
+  footer p {
+      font-size: 2rem;
   }
   footer .social a img {
       height: 130px;
