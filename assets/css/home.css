@@ -73,14 +73,17 @@ header .mobile-tip {
     margin-left: 4.3%;
     width: 60%;
 }
+.about-me .inside h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 .about-me picture img {
     background: transparent;
-    height: 450px;
-    width: 600px;
+    /*height: 450px;
+    width: 600px;*/
     float: right;
     position: relative;
-    bottom: 95%;
-    left:50%;
+    bottom:95%;
 }
 .social img {
     height: 70px;
