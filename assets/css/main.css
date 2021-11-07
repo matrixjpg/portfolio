@@ -32,7 +32,7 @@ header h3 {
     display: inline;
     margin-right: 30%;
     margin-left: 4.25%;
-    color: #AA2355;
+    color: #ff005e;
 }
 ul {
     padding-inline-start: 0px;
@@ -40,12 +40,12 @@ ul {
 }
 .active {
     font-weight: 700;
-    color: #AA2355;
+    color: #ff005e;
 }
 button {
     padding: 10px 25px;
     margin-top: 2%;
-    background-color: #AA2355;
+    background-color: #ff005e;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     display: block;
     color: white;
