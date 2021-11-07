@@ -60,9 +60,6 @@ svg {
     transform: translateX(9px) translateY(1px) rotate(45deg);
   }
 /* End Of Menu */
-header .mobile-tip {
-    display: none;
-}
 .container {
     display: none;
     width: 60px;
@@ -73,17 +70,14 @@ header .mobile-tip {
     margin-left: 4.3%;
     width: 60%;
 }
-.about-me .inside h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-.about-me picture img {
+.about-me > img {
     background: transparent;
-    /*height: 450px;
-    width: 600px;*/
+    height: 450px;
+    width: 600px;
     float: right;
     position: relative;
-    bottom:95%;
+    bottom: 95%;
+    left:50%;
 }
 .social img {
     height: 70px;
@@ -156,6 +150,7 @@ i {
 h2 {
     margin-bottom:5%;
     font-size: 2rem;
+    text-align: center;
 }
 .second-section h3 {
     display: inline-block;
@@ -169,7 +164,7 @@ h2 {
     display: inline-flex;
 }
 /* Third Section */
-.second-section h2, .third-section h2 {
+h2 {
     font-size: 2rem;
     text-align: center;
 }
@@ -195,12 +190,6 @@ h2 {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 @media screen and (max-width: 1000px) {
-  header .mobile-tip {
-      display: block;
-  }
-  body {
-      margin-left:4%;
-  }
   header h3 {
       font-size: 3rem;
   }
@@ -222,22 +211,13 @@ h2 {
   h2 {
       font-size: 4rem;
   }
-  @media (orientation: landscape) {
-  .second-section {
-      margin-top: 40%;
-  }
-  header .mobile-tip {
-      display: none;
-  }
- }
   .second-section h3 {
-      font-size: 1.8rem;
       width: 55%;
       bottom: -32px;
   }
   .third-section h3 {
-      font-size: 1.8rem;
-   }
+      font-size: 2rem;
+  }
   .about-me .inside {
       width: 100%;
       font-size: 2.5rem;
