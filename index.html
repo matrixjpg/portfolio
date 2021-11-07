@@ -1,5 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<html>
     <head>
         <title>My Portfolio | Me</title>
         <meta charset="UTF-8">
@@ -18,11 +17,17 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
+        <style>
+            #loading {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background: #000 url('https://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-6.gif') no-repeat center center;
+                z-index: 999;
+                }
+        </style>
         <div id="loading"></div>
         <header>
-        <div class="mobile-tip">
-                <h5>Tip: Since You're Using Phone, Use Landscape For a Better View.</h5>
-        </div>
             <h3>Omar</h3>
             <!-- <i class='bx bx-menu'></i> -->
             <div class="container">
@@ -54,7 +59,7 @@
             <!-- <img src="assets/img/coding.svg" alt="Coding"> -->
             <div class="inside">
                 <h1 data-aos="zoom-out-down" data-aos-duration="2100">Hello Friend 👋.</h1>
-                <h2 style="width:100%;" data-aos="zoom-out-down" data-aos-duration="2200">I'm <span style="color:#ff005e;">Omar El Sayed.</span><br>I'm a <span id="text"></span><br>Life Long Learner.</h2>
+                <h3 style="width:100%;" data-aos="zoom-out-down" data-aos-duration="2200">I'm <span style="color:#ff005e;">Omar El Sayed.</span><br>I'm <span id="text"></span><br>Life Long Learner.</h3>
                 <div class="social">
                     <!-- <a href="https://www.facebook.com/matrixx.0"><i class='bx bxl-facebook-circle'></i></a>
                     <a href="https://wa.me/201124327902"><i class='bx bxl-whatsapp'></i></a>
@@ -69,11 +74,7 @@
                 </div>
                 <a data-aos="zoom-in-down" data-aos-duration="2500" href="mailto:omariibraheeem61@outlook.com"><button>Contact Me</button></a>
             </div>
-            <picture data-aos="fade-right" data-aos-duration="2600" data-aos-easing="ease-in-sine">
-              <source type="image/webp" srcset="assets/img/coding.webp">
-              <source type="image/avif" srcset="assets/img/coding.avif">
-              <img src="assets/img/coding.png" alt="Coding" width=600 height=450>
-            </picture>
+            <img data-aos="fade-up-left" data-aos-duration="2600" src="assets/img/coding.png" alt="Coding">
             <!-- <span class="img"></span> -->
         </div>
         <!-- <a href="#second-section"><div class="scroll-down"><h2>Scroll Down</h2>
@@ -81,24 +82,14 @@
         </div></a> -->
         <div data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine" id="second-section" class="second-section">
             <h2>Here's What I Have Done</h2>
-            <picture>
-                <source type="image/webp" srcset="assets/img/Developer.webp">
-                <source type="image/avif" srcset="assets/img/Developer.avif">
-                <img src="assets/img/Developer.svg" alt="Developer" width="406" height="306">
-            </picture>
-            <!-- <img src="assets/img/Developer.svg" alt="Developer" width="400" height="400"> -->
+            <img src="assets/img/Developer.svg" alt="Developer">
             <h3>At Highschool Exactly In Jan 2020 I was a particpant in <span style="color: #0689d8;">Samsung Innovation Campus</span> First Patch To Learn Fundmentals Of Coding And Programming, It was a two months program and I have learned <span style="color: #0689d8;">Scratch 3, Rurple, C programming basics, Arduino, Algorithms and Data Structure</span>.<br> Then In Dec 2020 I was hired to develop an eduactional website to teach chemistry for highschool students online called <a style="display:inline-block;" href="https://chemistry-arena.com">Chemistry Arena</a>, After that In Oct 2021 I was hired to develop an eduactional website again for teaching biology by <a href="https://drziadanwar.net">Dr. Ziad Anwar</a>.<br> And Since Then I'm trying to develop myself as much By Working As Part-Time Freelancer at <span style="color: #14a800;">Upwork.com</span>.</h3>
         </div>
         <div data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine" id="third-section" class="third-section">
             <h2>Who Am I</h2>
-            <picture>
-                <source type="image/webp" srcset="assets/img/helping.webp">
-                <source type="image/avif" srcset="assets/img/helping.avif">
-                <img src="assets/img/helping.png" alt="Bottom" width=400 height=400>
-            </picture>
-            <!-- <img src="assets/img/helping.png" alt="Bottom"> -->
+            <img src="assets/img/helping.png" alt="Bottom">
             <h3>I'm Omar El Sayed I was born in Cairo, Egypt in June 2003. I was graduated from Future 12 School (M.I.E.L.S) In August 2021. And Currently I'm Studying Computer Science In Thebes Academy. Working on myself as much as I could. Since 2021 I'm working as a freelancer on Upwork besides studying, and working as Tech Support & Web Developer at CHEMISTRY-ARENA.COM. 
-                A Loving Brother, A Thankful Son. A Loyal Culé, Just Lucky to have all of this.</h3>
+                A Loving Brother, A Thankful Son. A Loyal Gooner, Just Lucky to have all of this.</h3>
         </div>
         <footer style="text-align:center;">
             <div class="social">
@@ -114,10 +105,9 @@
         <script src="assets/js/main.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
-        jQuery(document).ready(function() {
-            jQuery('body').fadeIn(2000);
-            jQuery('#loading').fadeOut(1500);
-});
-    </script>
+            jQuery(document).ready(function() {
+                jQuery('#loading').fadeOut(2000);
+            });
+        </script>
     </body>
 </html>
