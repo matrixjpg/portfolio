@@ -166,8 +166,9 @@ h2 {
     display: inline-flex;
 }
 /* Third Section */
-h2 {
+.second-section h2, .third-section h2 {
     font-size: 2rem;
+    text-align: center;
 }
 .third-section {
     margin-bottom: 25%;
