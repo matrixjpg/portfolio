@@ -119,8 +119,14 @@ header .container {
        font-size: 2.5rem;
        margin-left: 0.5%;
     }
+    header h3, .main h1 {
+        font-size: 3rem;
+    }
     .container {
        display: block;
+    }
+    .container img {
+        height: 70px;
     }
     .main {
         margin-left: 20%;
