@@ -55,6 +55,7 @@ body {
 }
 a {
     text-decoration: none;
+    transition: .3s ease;
 }
 a:link, a:visited {
     color: white;
